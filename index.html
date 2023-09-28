@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--FAVICON-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!--REMIXICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- TITLE -->
+    <title>Portfolio Website Igor Moraes</title>
+  </head>
+
+  <body>
+    <!--HEADER: Cabeçalho-->
+    <header class="header" id="header">
+      <!-- Navegação Principal -->
+      <nav class="nav container">
+        <!-- Logo com Inicial do meu Nome -->
+        <a href="#" class="nav_logo">
+          <span class="nav_logo-circle">I</span>
+          <span class="nav_logo-name">Igor Moraes</span>
+        </a>
+
+        <!-- Container de Menu -->
+        <div class="nav_menu" id="nav-menu">
+          <span class="nav_title">Menu</span>
+
+          <h3 class="nav_name">Igor Moraes</h3>
+
+          <!-- Lista de Menus -->
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">Home</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Quem Sou</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Skills</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#projects" class="nav_link">Projetos</a>
+            </li>
+
+            <li class="nav_item">
+              <a href="#contact" class="nav_link nav_link-button">Contato</a>
+            </li>
+          </ul>
+
+          <!-- Botão de Fechar Menu -->
+          <div class="nav_close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Botões de Tema e Abertura de Menu -->
+        <div class="nav_buttons">
+          <!--Botão de Tema -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!--Botão Toggle-->
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--MAIN: Conteudo Principal-->
+    <main class="main">
+      <!--HOME-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <h1 class="home_name">Igor Moraes</h1>
+
+          <div class="home_perfil">
+            <div class="home_image">
+              <img
+                src="/assets/img/home_perfil-5.jpg"
+                alt="foto de perfil, homem branco com oculos escuros e camisa preta, paisagem de montanhas ao fundo"
+                class="home_img"
+              />
+
+              <div class="home_shadow"></div>
+
+              <img
+                src="/assets/img/curved-arrow.svg"
+                alt=""
+                class="home_arrow"
+              />
+
+              <img
+                src="/assets/img/random-lines.svg"
+                alt=""
+                class="home_line"
+              />
+
+              <div class="geometric-box"></div>
+            </div>
+
+            <div class="home_social">
+              <a
+                href="https://www.linkedin.com/in/igor-moraes-1869461ab/"
+                target="_blank"
+                class="home_social-link"
+              >
+                <i class="ri-linkedin-line"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/moraes.i/"
+                target="_blank"
+                class="home_social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a
+                href="https://github.com/IgorMeloMoraes"
+                target="_blank"
+                class="home_social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home_info">
+            <p class="home_description">
+              <b>Desenvolvedor Mobile</b>, com conhecimento em Desenvolvimento
+              Web e Web Design.
+            </p>
+
+            <a href="#about" class="home_scroll">
+              <div class="home_scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home_scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about_container container grid">
+          <h2 class="section_title-1">
+            <span>Quem Sou</span>
+          </h2>
+
+          <div class="about_perfil">
+            <div class="about_image">
+              <img
+                src="/assets/img/about_perfil-4.jpg"
+                alt="image"
+                class="about_img"
+              />
+
+              <div class="about_shadow"></div>
+
+              <div class="geometric-box"></div>
+
+              <img
+                src="/assets/img/random-lines.svg"
+                alt=""
+                class="about_line"
+              />
+
+              <div class="about_box"></div>
+            </div>
+          </div>
+
+          <div class="about_info">
+            <p class="about_description">
+              Me chamo Igor, tenho 27 anos, Casado com a Ana Paula e Pai da
+              Zoe.<br /><br />
+              <b>Mineiro e Belo Horizontino de nascença</b>, amante de pão de
+              queijo, viagens e bons livros, tenho o Cruzeiro como o clube de
+              futebol favorito. <br /><br />
+              <b>Apaixonado por tecnologia</b>, na qual inicie uma graduação em
+              <b>Ciência da Computação </b> em meio a pandemia do Covid-19. De
+              la pra cá, tenho adquirido experiência através de estágios e
+              bootcamps, além é claro de projetos pessoais, desenvolvendo
+              <b>Apps e Websites.</b> <br /><br />
+              <b
+                >Atualmente sou Estagiário na area de Desenvolvimento de
+                Sistemas Mobile na PRODEMGE </b
+              >. Busco dar sequência na carreira de tecnologia a qual está
+              apenas se iniciando para mim.
+            </p>
+
+            <ul class="about_list">
+              <li class="about_item">
+                <b>Algumas das minhas Skills são:</b> Android Studio,
+                Java/Kotlin, HTML, CSS, JavaScript, Git & GitHub, Bootstrap,
+                Figma & Scrum.
+              </li>
+            </ul>
+
+            <div class="about_buttons">
+              <a href="#contact" class="button">
+                <i class="ri-mail-send-line"></i> Contato
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/igor-moraes-1869461ab/"
+                target="_blank"
+                class="button_ghost"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Skills ====================-->
+      <section class="services section" id="services">
+        <h2 class="section_title-1">
+          <span>Skills</span>
+        </h2>
+
+        <div class="services_container container grid">
+          <article class="services_card">
+            <div class="services_border"></div>
+
+            <div class="services_content">
+              <div class="services_icon">
+                <div class="services_box"></div>
+                <i class="ri-smartphone-line"></i>
+              </div>
+
+              <h2 class="services_title">Desenvolvimento Mobile</h2>
+
+              <p class="services_description">
+                Criação de Apps para a plataforma Android, utilizando a
+                linguagem Java/Kotlin. <br /><br />
+                Criação de layuts UI/UX. Sistemas OOP, Activitys, Fragments,
+                MVVM entre outras habilidades.
+              </p>
+            </div>
+          </article>
+
+          <article class="services_card">
+            <div class="services_border"></div>
+
+            <div class="services_content">
+              <div class="services_icon">
+                <div class="services_box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+
+              <h2 class="services_title">Desenvolvimento Front-End</h2>
+
+              <p class="services_description">
+                Criação de sites responsivos utilizando HTML, CSS e JavaScript.
+                <br />
+                <br />
+              </p>
+            </div>
+          </article>
+          <article class="services_card">
+            <div class="services_border"></div>
+
+            <div class="services_content">
+              <div class="services_icon">
+                <div class="services_box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
+
+              <h2 class="services_title">Web Design</h2>
+
+              <p class="services_description">
+                Criação de interfaces de aplicativos, landpages, web interfaces
+                e design responsivo utilizando o Figma
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section_title-1">
+          <span>Projetos</span>
+        </h2>
+
+        <div class="projects_container container grid">
+          <article class="projects_card">
+            <div class="projects_image">
+              <img
+                src="/assets/img/project-1.jpg"
+                alt="image"
+                class="projects_img"
+              />
+
+              <a href="#" class="projects_button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects_content">
+              <h3 class="projects_subtitle">App</h3>
+              <h2 class="projects_title">
+                Pedra, Papel, Tesoura, Lagarto e Spock
+              </h2>
+
+              <p class="projects_description">
+                Projeto desenvolvido em Java utilizando OOP. <br /><br />
+                Essa é uma versão alternativa do famoso game Pedra, Papel e
+                Tesoura, inspirada na serie The Big Bang Theory, onde é
+                adicionado mais duas possibilidades (Lagarto e o Spock) O
+                projeto possui uma interface para ser jogado contra a 'maquina',
+                placares que definem um vencedor e icones atraentes. O Sistema
+                foi todo desenvolvido na linguagem Java utilizando OOP para
+                capturar as ações de cada jogador
+              </p>
+            </div>
+
+            <div class="projects_buttons">
+              <a
+                href="https://github.com/IgorMoraesMelo/pedra-papel-tesoura-lagarto-spock"
+                target="_blank"
+                class="projects_link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+              <a href="" target="_blank" class="projects_link">
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects_card">
+            <div class="projects_image">
+              <img
+                src="/assets/img/project-1.jpg"
+                alt="image"
+                class="projects_img"
+              />
+
+              <a href="#" class="projects_button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects_content">
+              <h3 class="projects_subtitle">App</h3>
+              <h2 class="projects_title">Alcool ou Gasolina</h2>
+
+              <p class="projects_description">
+                Projeto criado pensando em uma dificuldade pessoal de calcular
+                qual o melhor combustivel para meu carro dependendo do preço e
+                da kilometragem rodada. <br /><br />
+                Com isso, ao abastecer, informando o preço tanto do alcool
+                quanto da gasolina o App me retorna a melhor opção dentre os
+                dois. O valor do app é a geração de economia com gasto de
+                combustivel no dia a dia
+              </p>
+            </div>
+
+            <div class="projects_buttons">
+              <a
+                href="https://github.com/IgorMoraesMelo/App-Melhor-Combustivel"
+                target="_blank"
+                class="projects_link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+              <a href="" target="_blank" class="projects_link">
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects_card">
+            <div class="projects_image">
+              <img
+                src="/assets/img/project-2.jpg"
+                alt="image"
+                class="projects_img"
+              />
+
+              <a href="#" class="projects_button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects_content">
+              <h3 class="projects_subtitle">App</h3>
+              <h2 class="projects_title">Lista de Tarefas</h2>
+
+              <p class="projects_description">
+                Projeto clássico de criação de uma lista de tarefas otimizada
+                <br /><br />
+                Esse projeto alem das tags de tarefas que é possivel criar, foi
+                pensado em um alerta (Uma especie de despertador) para avisar ao
+                usuario o momento adquado para se iniciar determinada tarefa. O
+                app Possui uma inteface bem amigavel e criativa
+              </p>
+            </div>
+
+            <div class="projects_buttons">
+              <a
+                href="https://github.com/IgorMoraesMelo/app_lista_tarefas"
+                target="_blank"
+                class="projects_link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+              <a href="" target="_blank" class="projects_link">
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects_card">
+            <div class="projects_image">
+              <img
+                src="/assets/img/project-3.jpg"
+                alt="image"
+                class="projects_img"
+              />
+
+              <a href="#" class="projects_button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects_content">
+              <h3 class="projects_subtitle">Web Site</h3>
+              <h2 class="projects_title">Netflix Clone</h2>
+
+              <p class="projects_description">
+                A ideia do projeto foi o desenvolvimento da pagina inicial da
+                Netflix (Clone). <br /><br />
+                O projeto foi pensado para estudo de criação de layouts de
+                paginas de streamings
+              </p>
+            </div>
+
+            <div class="projects_buttons">
+              <a
+                href="https://github.com/IgorMoraesMelo/Netflix-Clone"
+                target="_blank"
+                class="projects_link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+              <a href="" target="_blank" class="projects_link">
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects_card">
+            <div class="projects_image">
+              <img
+                src="/assets/img/project-1.jpg"
+                alt="image"
+                class="projects_img"
+              />
+
+              <a href="#" class="projects_button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects_content">
+              <h3 class="projects_subtitle">Website</h3>
+              <h2 class="projects_title">Jogo da Cobrinha</h2>
+
+              <p class="projects_description">
+                Projeto do tão famoso jogo da cobrinha (Snake Game) <br /><br />
+                Projeto desenvolvido em Javascript utilizando diversas funções,
+                como gamer over, crescimento de acordo com o numero de blocos
+                coletados, entre outros
+              </p>
+            </div>
+
+            <div class="projects_buttons">
+              <a
+                href="https://github.com/IgorMoraesMelo/Snake-Game-Project"
+                target="_blank"
+                class="projects_link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+              <a href="" target="_blank" class="projects_link">
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects_card">
+            <div class="projects_image">
+              <img
+                src="/assets/img/project-2.jpg"
+                alt="image"
+                class="projects_img"
+              />
+
+              <a href="#" class="projects_button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects_content">
+              <h3 class="projects_subtitle">Website</h3>
+              <h2 class="projects_title">Restaurante Appetit</h2>
+
+              <p class="projects_description">
+                Projeto pensado para a criação e desenvolvimento de um web site
+                muito simples, estatico, mas que mostre todas as informações
+                necessarias sobre o restaunte, como cardapio, contato, about us,
+                e tela principal
+              </p>
+            </div>
+
+            <div class="projects_buttons">
+              <a
+                href="https://github.com/IgorMoraesMelo/Restaurante-Appetit"
+                target="_blank"
+                class="projects_link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+              <a href="" target="_blank" class="projects_link">
+                <i class="ri-dribbble-line"></i> View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact_container grid">
+          <div class="contact_data">
+            <h2 class="section_title-2">
+              <span>Entre em Contato</span>
+            </h2>
+
+            <p class="contact_description-1">
+              Estou disponivel para ler todos os e-mails. <br />
+              Envie-me qualquer mensagem que desejar, receberei seu e-mail e
+              responderei o mais breve possivel
+            </p>
+
+            <p class="contact_description-2">
+              Preciso do seu <b>Nome</b> e <b>Endereço de E-mail</b>, mas não se
+              preocupe você não receberá nada além de sua resposta.
+            </p>
+
+            <div class="geometric-box"></div>
+          </div>
+
+          <div class="contact_mail">
+            <h2 class="contact_title">Enviei uma Mensagem</h2>
+
+            <form action="" class="contact_form" id="contact-form">
+              <div class="contact_group">
+                <div class="contact_box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact_input"
+                    id="name"
+                    required
+                    placeholder="Nome"
+                  />
+                  <label for="name" class="contact_label">Nome</label>
+                </div>
+
+                <div class="contact_box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact_input"
+                    id="email"
+                    required
+                    placeholder="Email"
+                  />
+                  <label for="email" class="contact_label">Email</label>
+                </div>
+              </div>
+
+              <div class="contact_box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact_input"
+                  id="subject"
+                  required
+                  placeholder="Assunto"
+                />
+                <label for="subject" class="contact_label">Assunto</label>
+              </div>
+
+              <div class="contact_box contact_area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact_input"
+                  required
+                  placeholder="Mensagem"
+                ></textarea>
+                <label for="message" class="contact_label">Mensagem</label>
+              </div>
+
+              <p class="contact_message" id="contact-message"></p>
+
+              <button type="submit" class="contact_button button">
+                <i class="ri-send-plane-line"></i> Enviar Mensagem
+              </button>
+            </form>
+          </div>
+
+          <div class="contact_social">
+            <img
+              src="/assets/img/curved-arrow.svg"
+              alt=""
+              class="contact_social-arrow"
+            />
+
+            <div class="contact_social-data">
+              <div>
+                <p class="contact_social-description-1">
+                  Não quer enviar emails
+                </p>
+
+                <p class="contact_social-description-2">
+                  Escreva-me nas redes sociais
+                </p>
+              </div>
+
+              <div class="contact_social-links">
+                <a
+                  href="https://www.instagram.com/moraes.i/"
+                  target="_blank"
+                  class="contact_social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/igor-moraes-1869461ab/"
+                  target="_blank"
+                  class="contact_social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <ul class="footer_links">
+          <li>
+            <a href="#about" class="footer_link">Quem Sou</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer_link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer_link">Projetos</a>
+          </li>
+        </ul>
+
+        <span class="footer_copy">
+          &#169; Todos os Direitos Reservados Por
+          <a href="#">Igor Moraes / Estúdios Iguana. 🐊</a>
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
